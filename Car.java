@@ -1,14 +1,14 @@
 
 public class Car extends Vehicle{
-
+	// heritage de la classe vehicule
+	
 	public Car(String brand, int kilometers) {
 		super(brand, kilometers);
-		// TODO Auto-generated constructor stub
 	}
-
+	
+	// implementation de la methode abstract
 	@Override
 	public String doStuff() {
-		// TODO Auto-generated method stub
 		return "vroum vroum !";
 	}
 
